@@ -1,0 +1,26 @@
+{"data":[
+  {
+      "icon":"https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice1.jpg",
+      "id" : "1",
+    "title" : "Assets of investors",
+    "description" : "All operations of the company's projects are maintained at the expense of assets of investors."
+  },
+  {
+      "icon":"https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice2.jpg",
+      "id" : "2",
+      "title" : "Directions",
+      "description" : "The team works in two directions: portfolio investment, where is the lowest risk, and investments in startups."
+    },
+    {
+      "icon":"https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice3.jpg",
+      "id" : "3",
+      "title" : "Support",
+      "description" : "If you have a question, you can always call our hotline, and operators will be happy to help you!"
+    },{
+      "icon":"https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice3.jpg",
+      "id" : "4",
+      "title" : "Taster",
+      "description" : "If you have a question, you can always call our hotline, and operators will be happy to help you!"
+    }
+]
+}
