@@ -6,8 +6,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Carousel from "./Components/Carousel";
 import Home from "./Components/Home";
 import Home1 from "./Components/Home1";
-import Home2 from "./Components/home2";
+import Home2 from "./Components/Home2";
 import Customform from "./Components/Customform";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import "./App.css"
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Home1/>
       <Home2/>
       <Customform/>
+      <Contact/>
+      <Footer/>
       
     </div>
   );

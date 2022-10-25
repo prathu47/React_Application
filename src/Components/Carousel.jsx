@@ -1,23 +1,23 @@
 import React from 'react'
 import { useState } from 'react'
 import Button from 'react-bootstrap/Button';
-
+import ReactDOM from 'react-dom'
 const Carousel = () => {
   let data = [
     {
       id: "1",
-      img: "https://www.wallpaperbetter.com/wallpaper/167/914/543/tea-and-books-2K-wallpaper.jpg",
-      text: "jhghjb"
+      img: "https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-slider10.jpg",
+      text: "WE MEET YOUR FINANCIAL INVESTMENT NEEDS "
     },
     {
       id: "2",
-      img: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg",
-      text: "jvghvhjv"
+      img: "https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-slider30.jpg",
+      text: "WE WILL HELP TO CREATE YOUR WEALTH"
     },
     {
       id: "3",
-      img: "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=4000&hei=2200&scl=0.752",
-      text: "trfetyf"
+      img: "https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-slider20.jpg",
+      text: "SIMPLE INVESTING PROSPEROUS FUTURE"
     },
   ]
   const [Number, setNumber] = useState(0)
@@ -28,13 +28,13 @@ const Carousel = () => {
       
         {/* <img src={data[Number].img} width="100%" style={{ height: 480 }} alt="" /> */}
         <div style={{display:"flex",flexDirection:"row",justifyContent:"center",height:"100%",alignItems:"flex-end" }}>
-        <Button onClick={()=>setNumber(Math.abs((Number-1))%3)}>sub</Button>
-        <h4>
+        <Button style={{backgroundColor:"#d96124", padding:"28px 20px 28px 20px", color:"white",marginBottom:"12px"}} onClick={()=>setNumber(Math.abs((Number-1))%3)}>&#8678;</Button>
+        <h4 style={{backgroundColor:"#d96124", padding:"30px", color:"white"}}> <b>
           {
             data[Number].text
-          }
-        </h4>
-        <Button onClick={()=>setNumber((Number+1)%3)}>add</Button>
+          } </b>
+        </h4> 
+        <Button style={{backgroundColor:"#d96124", padding:"28px 20px 28px 20px", color:"white", marginBottom:"12px"}} onClick={()=>setNumber((Number+1)%3)}><span>&#8680;</span></Button>
       </div>
       
       </div>
